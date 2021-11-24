@@ -1,0 +1,52 @@
+html{
+    height: 100%;
+    background-color: #2c2130;
+  }
+  
+  body{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    min-height: 100%;
+    color:#eeeee4;
+    
+  
+  }
+  
+  
+  footer {
+    background-color:#000;
+    height: 100%;
+    grid-column: 1/4;
+    grid-row: 4;
+    
+  }
+  footer p{
+    padding: 10px;
+    text-align: center;
+    
+  }
+
+.container-video{
+    display:grid;
+    grid-column: 2/3;
+    padding: 20px;
+  }
+
+
+#title-video{
+    padding: 20px;
+}  
+#videolive iframe{
+    border-radius: 5px;
+}
+
+.descripcion{
+    padding: 10px;
+    text-align: justify;
+
+}
+
+.cardsMusic{
+    grid-column: 2/3;
+
+}

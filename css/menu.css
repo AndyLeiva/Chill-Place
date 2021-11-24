@@ -1,0 +1,55 @@
+.cabecera{
+  background: #d5b4d3;
+  display:grid;
+  grid-column: 1/4;
+  grid-template-columns:25% auto ;
+  text-align: center;
+
+  
+  align-items: end;
+  height: 69px;
+  width:100%;
+  
+  top: 0px;
+  
+  
+}
+#LOGO{
+  background: #d5b4d3;
+  color: #2c2130;
+  height: 100%;
+  align-items: center;
+}
+
+#menu{
+  
+  background: #d5b4d3;
+  height: 100%;
+  font-weight: bold;
+  justify-self: center;
+
+}
+  
+  /* Change the link color to  on hover */
+#menu a{
+  height: 70px;
+  padding: 50px;
+  
+ 
+
+}  
+#menu a:hover {
+  background-color: #2c2130;
+  color: #d5b4d3;
+  height: 100%;
+}
+
+.inPage{
+  color: #d5b4d3;
+  background-color: #2c2130;
+  height: 100%;
+}
+
+ 
+ 
+  
