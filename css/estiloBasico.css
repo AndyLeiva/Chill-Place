@@ -35,11 +35,18 @@ html{
   }
 
 
+.piePagina{
+  background-color: #000000;
+  color:#eee;
+  display: grid;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+ 
+}
 
-
-
-
-
-
-
+.piePagina footer p{
+  padding: 10px;
+  margin: 10px;
+}
 

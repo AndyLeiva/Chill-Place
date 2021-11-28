@@ -5,6 +5,7 @@
   grid-template-columns:25% auto ;
   text-align: center;
 
+  align-content: end;
   
   align-items: end;
   height: 69px;
@@ -19,7 +20,7 @@
   background: #d5b4d3;
   color: #2c2130;
   height: 100%;
-  align-items: center;
+  align-self: start;
 }
 
 #menu{
@@ -35,8 +36,6 @@
 #menu a{
   height: 70px;
   padding: 50px;
-  
- 
 
 }  
 #menu a:hover {

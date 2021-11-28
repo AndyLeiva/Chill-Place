@@ -1,0 +1,101 @@
+.contenedor-Contacto{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    display: grid;
+    grid-gap: 30px;
+    
+    
+}
+
+.card{
+
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 210px auto 400px ;
+    align-content: start;
+    border-radius: 10px;
+    height: 150px;
+    
+    
+}
+.card:hover{
+    box-shadow: 0 0 5px 0 rgba(255,255,255);
+    cursor: pointer;
+
+}
+
+
+.img{
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    margin:0;
+    padding: 0;
+    width: 170px;
+  
+   
+    
+}
+.logo-SocialMedia{
+    align-self: center;
+    width: 150px;
+    height: 150px;
+    
+
+}
+
+
+
+.contenedor-button {
+    background-color: #2c2130; 
+    border: none;
+    
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+    height: 50px;
+    
+    margin: 4px 4px;
+    border-radius: 50px;
+
+    display: flex;
+    justify-self: end;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+
+    
+  }
+
+  .contenedor-button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 rgb(57, 0, 163);
+}
+
+.button{
+    background-color: #2c2130;
+    color: white;
+    font-size: 16px;
+    justify-self: end;
+    align-self: center;
+    height: 30px;
+    
+}
+
+.text{
+    align-self: center;
+
+}
+
+.text h3{
+    font-size:  30px;
+}
+
+.text p{
+    font-size:20px;
+}
