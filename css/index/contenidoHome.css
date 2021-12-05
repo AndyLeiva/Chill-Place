@@ -64,6 +64,10 @@ iframe{
     
 }
 
+.card:hover{
+transform: scale(1.1);
+}
+
 .image img{
     width: 100%;
 
@@ -101,7 +105,7 @@ iframe{
 .button:hover{
     cursor: pointer;
     box-shadow: 0 0 5px 0 rgb(255, 255, 255);
-    background-color: #1f53c5;
+    opacity: 0.8;
     color:#ffffff;
     font-weight: bold;
 }
