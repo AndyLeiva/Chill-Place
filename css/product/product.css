@@ -14,6 +14,7 @@
 
 .img-producto{
     width: 400px;
+    transition: transform 1.2s;
 }
 
 img{
@@ -27,7 +28,9 @@ img{
     transform: scale(1.1);
     object-fit:contain;
     box-shadow:10px 30px 80px grey;
-
+   /*  transition: 0.5s; */
+    
+   
 }
 
 .texto{
@@ -110,6 +113,8 @@ h1{
     
 }
 
+
+
 .usuario{
     height: 30px;
    display: grid;
@@ -123,6 +128,7 @@ h1{
 .perfil{
     display: grid;
     grid-template-columns: 15% auto auto;
+    
 }
 .avatar {
     margin-left: 5px;
@@ -135,6 +141,10 @@ img {
     max-width: 100%;
 }
 
+.avatar:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
 
 
 .nombre{
@@ -146,6 +156,11 @@ img {
     padding-left: 10px;
     margin-right: 20px;
 }
+
+.nombre h4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 .estrellas{
     padding-bottom: 10px;
     margin-left: 10px;
@@ -154,10 +169,10 @@ img {
 .comentario{
     margin-top: 5px;
     background-color: rgba(128, 128, 128, 0.24);
-    border-bottom: 3px solid #2c2130;
+    border-bottom: 3px solid #4c2397;
     border-left: 3px solid #2c2130;
     height: 80px;
-    border-bottom-left-radius: 5px;
+    
 }
 
 .comentario p{
@@ -173,10 +188,32 @@ img {
     text-align: center;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    background-color: rgb(154, 84, 179);
+    background-color: rgb(71, 0, 163);
     color: rgb(255, 255, 255);
     width: 300px;
     justify-self: end;
 }
 
 
+.reaccionar{
+    height: 30px;
+    display:flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #2c2130;
+    border-left: 1px solid #2c2130;
+    border-bottom-left-radius: 5px;
+    background: rgb(49, 0, 68);
+    color: #f7f7f7;
+}
+
+.reaccionar p:hover{
+ 
+    
+    opacity: 0.9;
+    cursor: pointer;
+    font-weight: bold;
+    
+    
+}
