@@ -37,6 +37,7 @@
     box-shadow: 0 0 5px 0 rgba(255,255,255);
     cursor: pointer;
     transform: scale(1.1);
+   
 
 }
 
@@ -85,5 +86,20 @@
 .button:hover{
     cursor: pointer;
     box-shadow: 0 0 5px 0 rgb(57, 0, 163);
+    
 }
 
+
+.contenedor-shop a:link{
+    color:black;
+}
+.contenedor-shop a:visited{
+    color:black;
+}
+
+.contenedor-shop a:hover{
+    color:black;
+}
+.contenedor-shop a:active{
+    color:black;
+}
