@@ -208,12 +208,9 @@ img {
     color: #f7f7f7;
 }
 
-.reaccionar p:hover{
- 
-    
+.reaccionar p:hover{    
     opacity: 0.9;
     cursor: pointer;
     font-weight: bold;
-    
-    
+   
 }

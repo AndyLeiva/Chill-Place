@@ -29,6 +29,7 @@
     grid-template-rows: repeat(2);
     align-content: start;
     border-radius: 3px;
+    transition: transform 1.1s;
     
     
 }
